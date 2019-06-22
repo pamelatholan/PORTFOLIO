@@ -1,26 +1,24 @@
-.fixed-header {
-  width: 100%;
-  position: fixed;
-  padding: 0px;
-  top: 0;
-  left: 0;
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  border-bottom: 5px solid  rgb(116, 0, 0);
-  border-bottom-style: solid;
+#name {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
 }
 
-h1 {
-    margin-left: 20px;
-    margin-top: 10px;
-    font-family: 'Kaushan Script', cursive;
-    /* font-family: 'Tangerine', cursive; */
-    /* font-family: 'Staatliches', cursive; */
+#links {
+  margin-top: 20px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 body {
-  /* background-color: rgb(75, 75, 75); */
+  background-color: black;
+}
+
+li {
+  display: inline-block;
 }
 
 .fixed-footer {
