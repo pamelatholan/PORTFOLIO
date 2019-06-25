@@ -63,7 +63,15 @@ p2 {
 }
 
 @media only screen and (max-width: 600px) {
-  img {
+
+  .card {
+    border: 5px solid rgb(116, 0, 0);
+    width: 50%;
+    height:200px;
+    overflow: hidden;
+  }
+
+  .card-img-top {
     max-width: 100%;
     height: auto;
     display: block;    
