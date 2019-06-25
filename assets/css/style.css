@@ -62,10 +62,3 @@ p2 {
   font-family: 'Special Elite', cursive;
 }
 
-@media only screen and (max-width: 600px) {
-
-  .card-img-top {
-width: 130px;
-height: 100px
-}
-}
