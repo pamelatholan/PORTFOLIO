@@ -61,3 +61,11 @@ img {
 p2 {
   font-family: 'Special Elite', cursive;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+    display: block;    
+  }
+}
