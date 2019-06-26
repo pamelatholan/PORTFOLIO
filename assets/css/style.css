@@ -50,12 +50,8 @@ p {
   font-family: 'Pirata One', cursive;
 }
 
-img {
-  padding-top: 5px;
-}
-
 .card {
-  border: 5px solid rgb(116, 0, 0);
+  border: 6px solid rgb(116, 0, 0);
 }
 
 p2 {
