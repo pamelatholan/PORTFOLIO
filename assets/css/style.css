@@ -58,11 +58,3 @@ p2 {
   font-family: 'Special Elite', cursive;
 }
 
-@media only screen and (max-width: 760px) {
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-}
-
