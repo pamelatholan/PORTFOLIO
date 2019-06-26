@@ -1,63 +1,63 @@
 #name {
-    margin-top: 10px;
-    font-family: 'Pirata One', cursive;
-    font-size: 40px;
-    color: white;
+  margin-top: 10px;
+  font-family: 'Pirata One', cursive;
+  font-size: 40px;
+  color: white;
 }
 
 #links {
-  margin-top: 30px;
-  text-align: right;
-  font-family: 'Special Elite', cursive;
-  font-size: 18px;
-  color: white;
+margin-top: 30px;
+text-align: right;
+font-family: 'Special Elite', cursive;
+font-size: 18px;
+color: white;
 }
 
 body {
-  background-color: black;
+background-color: black;
 }
 
 li {
-  display: inline-block;
+display: inline-block;
 }
 
 #about.container {
-  color: black;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 6px solid rgb(116, 0, 0);
+color: black;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 5px solid rgb(116, 0, 0);
 }
 
 h2, h5 {
-  font-family: 'Special Elite', cursive;
+font-family: 'Special Elite', cursive;
 }
 
 p {
-  font-family: 'Times New Roman', serif;
+font-family: 'Times New Roman', serif;
 }
 
 .fixed-footer {
-  width: 100%;
-  position: fixed;
-  padding: 10px;
-  bottom: 0;
-  left: 0px;
-  background: black;
-  color: white;
-  text-align: center;
-  border-top: 5px solid rgb(116, 0, 0);
-  font-family: 'Pirata One', cursive;
-}
-
-.card {
-  border: 6px solid rgb(116, 0, 0);
-}
-
-p2 {
-  font-family: 'Special Elite', cursive;
+width: 100%;
+position: fixed;
+padding: 10px;
+bottom: 0;
+left: 0px;
+background: black;
+color: white;
+text-align: center;
+border-top: 5px solid rgb(116, 0, 0);
+font-family: 'Pirata One', cursive;
 }
 
 img {
-  padding-top: 5px;
+padding-top: 5px;
+}
+
+.card {
+border: 5px solid rgb(116, 0, 0);
+}
+
+p2 {
+font-family: 'Special Elite', cursive;
 }
