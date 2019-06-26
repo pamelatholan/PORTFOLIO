@@ -26,7 +26,7 @@ li {
   background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 5px solid rgb(116, 0, 0);
+  border: 6px solid rgb(116, 0, 0);
 }
 
 h2, h5 {
@@ -56,5 +56,13 @@ p {
 
 p2 {
   font-family: 'Special Elite', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
