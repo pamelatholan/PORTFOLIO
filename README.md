@@ -1,9 +1,12 @@
 ## Portfolio
 
 * All projects have a link to deployed page if applicable and a link to the GitHub repo as well as a short description and image.
-* All project repositories have README files with screen shots.
+
+* All project repositories have detailed README files.
+
+* Projects
     * Word Guess Game
-    * Crystal COllector
+    * Crystal Collector
     * Trivia Game
     * Giftastic
     * Train Scheduler
