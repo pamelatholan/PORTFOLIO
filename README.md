@@ -14,5 +14,7 @@
     * Friend Finder
     * Pamazon
     * Eat the Burger
+    * News Scraper
+    * Memory Game
 
 
