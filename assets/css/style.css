@@ -1,6 +1,10 @@
 #name {
   margin-top: 10px;
-  font-family: 'Pirata One', cursive;
+  /* font-family: 'Pirata One', cursive; */
+  font-family: 'Megrim', cursive;
+  /* font-family: 'Vibes', cursive; */
+  /* font-family: 'Khand', sans-serif; */
+  /* font-family: 'Rock Salt', cursive; */
   font-size: 40px;
   color:  white;
 }
@@ -8,18 +12,29 @@
 #links {
 margin-top: 30px;
 text-align: right;
-font-family: 'Special Elite', cursive;
+/* font-family: 'Special Elite', cursive; */
+/* font-family: 'Megrim', cursive; */
+/* font-family: 'Vibes', cursive; */
+font-family: 'Khand', sans-serif;
+/* font-family: 'Rock Salt', cursive; */
 font-size: 18px;
 color: white;
 }
 
 .link-top {
-  color: blueviolet;
+  color: white;
 }
 
 body {
-background-color: black;
+background-image: url(../images/body.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
+
+/* .row {
+background-color: black;
+} */
+
 
 li {
 display: inline-block;
@@ -30,11 +45,22 @@ color: black;
 background-color: white;
 padding-top: 10px;
 padding-bottom: 10px;
-border: 5px solid blueviolet;
+border: 5px solid black;
 }
 
-h2, h5 {
-font-family: 'Special Elite', cursive;
+h2 {
+ font-family: 'Rock Salt', cursive;
+ margin-bottom: 15px;
+}
+
+
+h4 {
+/* font-family: 'Special Elite', cursive; */
+/* font-family: 'Megrim', cursive; */
+/* font-family: 'Vibes', cursive; */
+font-family: 'Khand', sans-serif;
+text-align: center;
+/* font-family: 'Rock Salt', cursive; */
 }
 
 p {
@@ -50,8 +76,12 @@ left: 0px;
 background: black;
 color: white;
 text-align: center;
-border-top: 5px solid  blueviolet;
-font-family: 'Pirata One', cursive;
+border-top: 5px solid  black;
+/* font-family: 'Pirata One', cursive; */
+font-family: 'Megrim', cursive;
+/* font-family: 'Vibes', cursive; */
+/* font-family: 'Khand', sans-serif; */
+/* font-family: 'Rock Salt', cursive; */
 }
 
 img {
@@ -59,10 +89,15 @@ padding-top: 5px;
 }
 
 .card {
-border: 5px solid blueviolet;
+border: 5px solid black;
 }
 
 p2 {
-font-family: 'Special Elite', cursive;
+/* font-family: 'Special Elite', cursive; */
+/* font-family: 'Megrim', cursive; */
+/* font-family: 'Vibes', cursive; */
+font-family: 'Khand', sans-serif;
+/* font-family: 'Rock Salt', cursive; */
+font-size: 20px;
 }
 
