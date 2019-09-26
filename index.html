@@ -41,7 +41,7 @@
         <div class="col-md">
           <!-- One of three columns -->
         </div>
-        <div class="col-md" id="links">
+        <div class="view zoom" id="links">
           <li class="list">
             <a
               class="link-top"
@@ -66,54 +66,55 @@
       </div>
     </div>
     <br /><br /><br />
-    <div class="container" id="about">
-      <div class="col-md-9-align-center">
+    <div class="container" id="aboutme">
+      <div class="col-md-9-align-center" id="about">
         <h2>About</h2>
-
-        <!-- <img src="Assets/images/placeimg_640_480_nature (1).jpg" alt="Wooded Landscape" style="width:260px;height:200px;" class="float-img"> -->
+<div class="col-md-9-align-center">
         <p>
-          Hi, I'm a recent grad from UPENN Coding Bootcamp.  I am new to coding, but I have always loved design.
-          Coding reignited my passion for design.
-          <!-- Currently I am a Project Manager II, with experience acting as a
-          business analyst, for consumer packaged goods, medical and
-          pharmaceutical clients. Prior to my current position I held a dual
-          role as an administrator for SAP and as the sole resource for managing
-          the SAP MM module, used for purchasing goods and services globally. I
-          have also worked as a help desk analyst. -->
+          Hi, I'm a recent grad from UPENN Coding Bootcamp. I am new to coding,
+          but I have always loved design. Coding reignited my passion for
+          design.
         </p>
-
-        <p>
-          <!-- I have always loved technology and enjoyed jobs where that was my
-          focus. Learning and improving upon existing skills has also been of
-          paramount importance. I was able to combine both passions when I
-          decided to learn full stack web development. -->
-        </p>
-
-        <p>
-          <!-- My attention to detail, organizational skills, investment in learning
-          and interpersonal skills have served me well in every position I have
-          held. As an SAP administrator and MM module SME, I had unique insight
-          into not only the system as a whole, but also end user processes. This
-          allowed me to troubleshoot, streamline specific functions and provide
-          training to all users. -->
-        </p>
-
-        <p>
-          <!-- As a current student learning full stack web development, I look
-          forward to returning to my technology roots and transitioning into a
-          new and rewarding career. -->
-        </p>
+      </div>
+      </div>
+    </div>
+    <br>
+      <div class="container" id="aboutme">
+          <div class="col-md-9-align-center" id="tech">
+            <h2>Technologies</h2>
+    <div class="col-md-9-align-center">
+            <p>
+              HTML, CSS, JavaScript, NodeJS
+            </p>
+          </div>
+          </div>
+      </div>
+      <br>
+      <div class="container" id="aboutme">
+          <div class="col-md-9-align-center" id="contact">
+            <h2>Contact</h2>
+    <div class="col-md-9-align-center">
+            <p>
+              Email: pamela.tholan@yahoo.com 
+            </p>
+            <p>
+              Phone: 267.716.2275
+            </p>
+          </div>
+          </div>
+      </div>
       </div>
     </div>
     <br /><br /><br />
     <div class="fixed-footer">
       <div class="container">
-      <div class="row">
-        <div class= "col-md-6" id="copyright">Copyright &copy; 2019 Pamela Tholan</div> 
-        <div class= "col-md-6" id="contact">Email: pamelatholan@yahoo.com <br> Phone: 267.716.2275</div> 
-        <!-- <div class= "col-md-3" id="contact2">Phone: 267.716.2275</div> -->
-
-      </div>
+        <div class="row">
+          <div class="col-md-12" id="copyright">
+            Copyright &copy; 2019 Pamela Tholan
+          </div>
+          </div>
+          <!-- <div class= "col-md-3" id="contact2">Phone: 267.716.2275</div> -->
+        </div>
       </div>
     </div>
     <canvas class="background"></canvas>
@@ -124,9 +125,53 @@
           connectParticles: true,
           maxParticles: 200,
           // color: [ '#950ac3', '#00a36f', '#000000', '#0000f7'],
-          sizeVariations: 1,
+          sizeVariations: 1
         });
       };
+
+	$(document).ready(function(){
+		$('#about').addClass("hidden");
+
+		$('#about').click(function() {
+			var $this = $(this);
+
+			if ($this.hasClass("hidden")) {
+				$(this).removeClass("hidden").addClass("visible");
+
+			} else {
+				$(this).removeClass("visible").addClass("hidden");
+			}
+    });
+    
+    $('#tech').addClass("hidden");
+
+$('#tech').click(function() {
+  var $this = $(this);
+
+  if ($this.hasClass("hidden")) {
+    $(this).removeClass("hidden").addClass("visible");
+
+  } else {
+    $(this).removeClass("visible").addClass("hidden");
+  }
+});
+
+$('#contact').addClass("hidden");
+
+$('#contact').click(function() {
+  var $this = $(this);
+
+  if ($this.hasClass("hidden")) {
+    $(this).removeClass("hidden").addClass("visible");
+
+  } else {
+    $(this).removeClass("visible").addClass("hidden");
+  }
+});
+
+
+	});
+</script>
     </script>
     <script src="path/to/particles.min.js"></script>
   </body>
