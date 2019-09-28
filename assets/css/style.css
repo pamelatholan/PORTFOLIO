@@ -88,7 +88,6 @@ li {
   padding-bottom: 10px;
   border: 5px solid black;
   cursor: pointer;
-
 }
 
 h2 {
@@ -135,6 +134,11 @@ p {
   border: 5px solid black;
 }
 
+.card-text {
+  font-family: "Khand", sans-serif;
+
+}
+
 p2 {
   /* font-family: 'Special Elite', cursive; */
   /* font-family: 'Megrim', cursive; */
@@ -155,10 +159,6 @@ p2 {
 .visible>div {
 	display:block;
 }
-
-/* #title {
-text-align: center;
-} */
 
 .block {
   display: block;
