@@ -107,6 +107,18 @@ h4 {
 
 p {
   font-family: "Times New Roman", serif;
+  /* text-align: center; */
+  font-size: 18px;
+}
+
+#technologies {
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact {
+  font-family: "Times New Roman", serif;
   text-align: center;
   font-size: 18px;
 }
