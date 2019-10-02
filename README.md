@@ -17,7 +17,7 @@
   * Friend Finder
   * Pamazon
   * Eat the Burger
-  * News Scraper
   * Memory Game
+  * Sarge
 
 * Main page background created using Particle.js
