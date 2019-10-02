@@ -1,11 +1,7 @@
 #name {
   margin-top: 10px;
   text-align: center;
-  /* font-family: 'Pirata One', cursive; */
   font-family: "Megrim", cursive;
-  /* font-family: 'Vibes', cursive; */
-  /* font-family: 'Khand', sans-serif; */
-  /* font-family: 'Rock Salt', cursive; */
   font-size: 40px;
   color: black;
   background-color: white;
@@ -14,11 +10,7 @@
 #links {
   margin-top: 30px;
   text-align: right;
-  /* font-family: 'Special Elite', cursive; */
-  /* font-family: 'Megrim', cursive; */
-  /* font-family: 'Vibes', cursive; */
   font-family: "Khand", sans-serif;
-  /* font-family: 'Rock Salt', cursive; */
   font-size: 18px;
   color: black;
 }
@@ -31,11 +23,7 @@
 #name2 {
   margin-top: 10px;
   text-align: center;
-  /* font-family: 'Pirata One', cursive; */
   font-family: "Megrim", cursive;
-  /* font-family: 'Vibes', cursive; */
-  /* font-family: 'Khand', sans-serif; */
-  /* font-family: 'Rock Salt', cursive; */
   font-size: 40px;
   color: black;
 }
@@ -43,11 +31,7 @@
 #links2 {
   margin-top: 30px;
   text-align: right;
-  /* font-family: 'Special Elite', cursive; */
-  /* font-family: 'Megrim', cursive; */
-  /* font-family: 'Vibes', cursive; */
   font-family: "Khand", sans-serif;
-  /* font-family: 'Rock Salt', cursive; */
   font-size: 18px;
   color: black;
 }
@@ -97,17 +81,12 @@ h2 {
 }
 
 h4 {
-  /* font-family: 'Special Elite', cursive; */
-  /* font-family: 'Megrim', cursive; */
-  /* font-family: 'Vibes', cursive; */
   font-family: "Khand", sans-serif;
   text-align: center;
-  /* font-family: 'Rock Salt', cursive; */
 }
 
 p {
   font-family: "Times New Roman", serif;
-  /* text-align: center; */
   font-size: 18px;
 }
 
@@ -131,16 +110,8 @@ p {
   background: black;
   color: white;
   text-align: center;
-  /* font-family: 'Pirata One', cursive; */
   font-family: "Megrim", cursive
-  /* font-family: 'Vibes', cursive; */
-  /* font-family: 'Khand', sans-serif; */
-  /* font-family: 'Rock Salt', cursive; */
 }
-
-/* img {
-  padding-top: 5px;
-} */
 
 .card {
   border: 5px solid black;
@@ -152,11 +123,7 @@ p {
 }
 
 p2 {
-  /* font-family: 'Special Elite', cursive; */
-  /* font-family: 'Megrim', cursive; */
-  /* font-family: 'Vibes', cursive; */
   font-family: "Khand", sans-serif;
-  /* font-family: 'Rock Salt', cursive; */
   font-size: 20px;
 }
 

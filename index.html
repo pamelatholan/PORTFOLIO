@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://fonts.googleapis.com/css?family=Barrio|Pirata+One|Special+Elite|Khand|Megrim|Rock+Salt|Vibes&display=swap"
+      href="https://fonts.googleapis.com/css?family=Khand|Megrim|Rock+Salt&display=swap"
       rel="stylesheet"
     />
     <link
@@ -98,7 +98,7 @@
             <h2>Contact</h2>
     <div class="col-md-align-center">
             <p id="contact"><strong>
-              Email: pamela.tholan@yahoo.com 
+              Email: pamelatholan@yahoo.com 
             </strong>
             </p>
             <p id="contact"><strong>
@@ -129,7 +129,30 @@
           connectParticles: true,
           maxParticles: 200,
           // color: [ '#950ac3', '#00a36f', '#000000', '#0000f7'],
-          sizeVariations: 1
+          sizeVariations: 1,
+          responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        maxParticles: 125,
+        connectParticles: true
+      }
+    },
+    {
+      breakpoint: 425,
+      options: {
+        maxParticles: 80,
+        connectParticles: true
+      }
+    }, 
+    {
+      breakpoint: 320,
+      options: {
+        maxParticles: 35,
+        connectParticles: true
+      }
+    }
+  ]
         });
       };
 
