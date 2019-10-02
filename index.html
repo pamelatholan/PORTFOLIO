@@ -123,11 +123,13 @@
     </div>
     <canvas class="background"></canvas>
     <script>
+// Particle.js background on main page //
       window.onload = function() {
         Particles.init({
           selector: ".background",
           connectParticles: true,
           maxParticles: 200,
+          // Option to add color to particles displayed //
           // color: [ '#950ac3', '#00a36f', '#000000', '#0000f7'],
           sizeVariations: 1,
           responsive: [
@@ -155,7 +157,7 @@
   ]
         });
       };
-
+// Show and Hide for About, Technologies and Contact on main page //
 	$(document).ready(function(){
 		$('#about').addClass("hidden");
 
