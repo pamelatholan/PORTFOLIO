@@ -10,7 +10,6 @@
 
   * Word Guess Game
   * Crystal Collector
-  * Trivia Game
   * Giftastic
   * Train Scheduler
   * Pamdora
