@@ -10,12 +10,13 @@
 
   * Word Guess Game
   * Crystal Collector
-  * Giftastic
-  * Train Scheduler
   * Pamdora
+  * LoTR Trivia Game
+  * Giftastic
+  * Firebase Train Scheduler
+  * Eat the Burger
   * Friend Finder
   * Pamazon
-  * Eat the Burger
   * Memory Game
   * Sarge
 
