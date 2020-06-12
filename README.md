@@ -9,15 +9,13 @@
 * Projects
 
   * Word Guess Game
-  * Crystal Collector
-  * Pamdora
+  * Firebase Train Scheduler
+  * Pamazon
   * LoTR Trivia Game
   * Giftastic
-  * Firebase Train Scheduler
+  * Memory Game
   * Eat the Burger
   * Friend Finder
-  * Pamazon
-  * Memory Game
   * Sarge
 
 * Main page background created using Particle.js
